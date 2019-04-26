@@ -1,0 +1,19 @@
+
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Site Map</ion-title>
+    <ion-buttons end>
+      <button id="langButton" ion-button (click)="isArabic = !isArabic">
+        {{isArabic ? "English" : "Arabic"}}
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div id="map" #map></div>
+  <div #panel id="panel"></div>
+</ion-content>

@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content padding>
+  <form  novalidate>
+    <ion-item>
+      <ion-label floating color="primary">Enter Your Name</ion-label>
+      <ion-input type="text" name="name" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating color="primary">Enter Your Password</ion-label>
+      <ion-input type="password"  name="password" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <button ion-button padding type="submit" (click)="goHome()">Submit</button>
+    </ion-item>
+  </form>
+</ion-content>
